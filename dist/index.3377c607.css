@@ -5778,8 +5778,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-80{
   margin-top: 20rem;
 }
-.mt-4{
-  margin-top: 1rem;
+.ml-20{
+  margin-left: 5rem;
 }
 .mb-4{
   margin-bottom: 1rem;
@@ -6016,14 +6016,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .uppercase{
   text-transform: uppercase;
 }
-.leading-7{
-  line-height: 1.75rem;
+.leading-8{
+  line-height: 2rem;
 }
 .leading-tight{
   line-height: 1.25;
-}
-.leading-8{
-  line-height: 2rem;
 }
 .tracking-tight{
   letter-spacing: -0.025em;
