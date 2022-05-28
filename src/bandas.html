@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    
+    <title>Resurrection Fest</title>
+  </head>
+
+  <body class="p-0 m-0">
+    <header class="h-24 shadow-md ">
+      <div class="w-85vw max-w-screen-lg m-auto">
+        <a href="index.html"><img class="mb-6 mt-7 float-left w-220px" src="./assets/images/logo.png" alt="Logo"></a>
+       
+        <div class="space-y-2 mt-10 float-right text-40px md:hidden">
+          <div class="block w-8 h-0.5 bg-gray-700 animate-pulse"></div>
+          <div class="block w-8 h-0.5 bg-gray-700 animate-pulse"></div>
+          <div class="block w-8 h-0.5 bg-gray-700 animate-pulse"></div>
+        </div>
+
+        <nav class="md:mt-10 float-none md:float-right bg-white md:bg-transparent font-semibold">
+            <ul class="clear-both hidden md:flex shadow-sm md:shadow-none list-none p-0 m-0 w-full md:w-350px">
+                <li class="py-5 md:py-0 w-full text-base text-center border border-stone-100 md:border-0">
+                  <a class="text-active font-bold hover:text-hover" href="bandas.html">Bandas</a>
+                </li>
+                <li class="py-5 md:py-0 w-full text-base text-center border border-stone-100 md:border-0">
+                  <a class="hover:text-hover" href="#">Nosotros</a>
+                </li>
+                <li class="py-5 md:py-0 w-full text-base text-center border border-stone-100 md:border-0">
+                  <a class="hover:text-hover" href="#">Galería</a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="w-85vw max-w-screen-lg m-auto">
+      <h1 class="text-center text-3xl pt-8 pb-4">Bandas</h1>
+      <div class="flex flex-wrap">
+                
+        <include src="./views/include.html" 
+          locals='{ 
+          "image": "./assets/images/1.png",
+          "title": "My Chemical Romance",
+          "type": "Alternativo/Indie",
+          "description": "My Chemical Romance es una banda estadounidense de rock, formada en el año 2001 en el estado de Nueva Jersey, e integrada en la mayor parte de su historia por el vocalista Gerard Way, el bajista Mikey Way y los guitarristas Ray Toro y Frank Iero; también Matt Pelissier y Bob Bryar fueron alguna vez los bateristas."
+          }'></include>
+
+    
+        <include src="./views/include.html"
+          locals='{ 
+          "image": "./assets/images/2.png",
+          "title": "Bring me the Horizon",
+          "type": "Alternativo/Metalcore",
+          "description": "Bring Me the Horizon es una banda británica de rock proveniente de Sheffield, Inglaterra. Se formó en 2003 y actualmente está conformada por el vocalista Oliver Sykes, el guitarrista Lee Malia, el bajista Matt Kean, el baterista Matt Nicholls y el tecladista Jordan Fish."
+          }'></include>
+
+        <include src="./views/include.html" 
+          locals='{ 
+          "image": "./assets/images/3.png",
+          "title": "Papa Roach",
+          "type": "Rock/Nu metal",
+          "description": "Papa Roach es una banda estadounidense de rock y nu metal fundada en 1993 en Vacaville, California. Se dio a conocer internacionalmente en el año 2000, con su álbum debut, Infest, reconocido tres veces como disco de platino."
+          }'></include>
+       
+        <include src="./views/include.html" 
+          locals='{ 
+          "image": "./assets/images/4.png",
+          "title": "Parkway Drive",
+          "type": "Groove metal/Heavy metal",
+          "description": "Parkway Drive es una banda australiana de metalcore procedente de Byron Bay, Nueva Gales del Sur, Australia. Fue formada en 2003. Hasta 2018, Parkway Drive ha lanzado seis álbumes: Killing with a Smile, Horizons, Deep Blue, Atlas, IRE y Reverence; además de un EP, dos DVD y un libro; Ten Years of Parkway Drive."
+          }'></include>
+      
+        <include src="./views/include.html" 
+          locals='{ 
+          "image": "./assets/images/5.png",
+          "title": "Motionless in White",
+          "type": "Heavy metal/Metalcore",
+          "description": "Motionless in White es una banda estadounidensede metalcore procedente de Scranton, Pensilvania. Se formó en 2005 y está compuesta por el vocalista y  tecladista Chris Cerulli, los guitarristas Ricky Olson y Ryan itkowski, el bajista Justin Morrow y el batería Vinny Mauro."
+          }'></include>
+  
+        <include src="./views/include.html" 
+          locals='{ 
+          "image": "./assets/images/6.png",
+          "title": "A Day to Remember",
+          "type": "Post-hardcore/Pop-punk",
+          "description": "A Day to Remember es una banda estadounidense de Pop Punk y Metalcore formada en Ocala, Florida, en 2003. Se caracterizan por la fusión del metalcore con el pop punk. El grupo se encuentra actualmente formado por Jeremy McKinnon, Neil Westfall, Alex Shelnutt y Kevin Skaff."
+          }'></include> 
+      </div>
+    </main>
+
+
+    <include src="./views/footer.html"></include>
+
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
