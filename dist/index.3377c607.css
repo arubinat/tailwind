@@ -5778,8 +5778,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-80{
   margin-top: 20rem;
 }
-.ml-20{
-  margin-left: 5rem;
+.mt-4{
+  margin-top: 1rem;
 }
 .mb-4{
   margin-bottom: 1rem;
@@ -5859,9 +5859,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .grid-rows-md{
   grid-template-rows: auto 0px 150px auto;
-}
-.grid-rows-sm{
-  grid-template-rows: auto auto 30px auto;
 }
 .flex-wrap{
   flex-wrap: wrap;
